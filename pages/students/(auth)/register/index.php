@@ -1,0 +1,1 @@
+<h1>Student Register Page</h1>

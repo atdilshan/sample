@@ -1,0 +1,1 @@
+<footer style="background:#ddd;padding:10px;">Footer</footer>

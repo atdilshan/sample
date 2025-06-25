@@ -1,0 +1,19 @@
+{
+  "name": "quizsl/frontend",
+  "description": "QuizSL Project.",
+  "autoload": {
+    "psr-4": {
+      "Lib\\": "lib/",
+      "Middlewares\\": "middlewares/"
+    }
+  },
+  "require": {},
+  "scripts": {
+    "start": "php -S localhost:8000 -t public",
+    "ins": [
+      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+      "composer install",
+      "composer dump-autoload"
+    ]
+  }
+}
